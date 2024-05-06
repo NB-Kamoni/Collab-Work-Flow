@@ -1,6 +1,10 @@
 # Continuous Collaboration Workflow
 
-Assuming you are working on a market feature on FormFolio
+Assuming you are working on the Market feature on FarmFolio. You will have to follow this steps for both the frontend and backend.. You dont have to fork the repository. Thats optional.
+
+The backend clone link:  git@github.com:NB-Kamoni/FarmFolio-Backend.git
+
+The frontend clone link: git@github.com:KelvinMugo4500/farm-folio.git
 
 ## Clone the Repository
 
