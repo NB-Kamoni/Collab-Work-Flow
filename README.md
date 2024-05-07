@@ -100,7 +100,7 @@ Commit the resolution with git commit.
 
 ## You are done!
 
-confurm that you have the updates 
+confirm that you have the updates 
 
 ```
 git status
