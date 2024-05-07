@@ -63,5 +63,50 @@ git checkout main
 git merge upstream/main
 git push origin main
 ```
+
+
+## What next? Getting updated work to your local
+
+After Kelvin does the merging, each team member should update their clones so that they can also work with what was merged. 
+
+To get the latest changes from your remote repository, fetch the updates. This won't change your local files but will update the remote tracking branches:
+
+```
+git fetch origin
+
+```
+
+Now, check if your branch has diverged from the remote branch or if there are new changes:
+
+```
+git status
+
+```
+
+To update your branch with the latest changes from the remote repository, use git pull. This will fetch and merge the changes from the remote branch into your current branch:
+
+```
+git pull origin <current branch>
+
+```
+
+If there are conflicts when you pull, you'll need to resolve them before you can proceed:
+
+Git will point out where the conflicts are.
+Edit the conflicting files to resolve the conflicts.
+Use git add <file> to mark the conflict as resolved.
+Commit the resolution with git commit.
+
+
+## You are done!
+
+confurm that you have the updates 
+
+```
+git status
+
+```
+
 Repeat this for both the backend and frontend repositoris.
 Reach out to the team incase of any challenges.
+
